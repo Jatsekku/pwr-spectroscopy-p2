@@ -1,0 +1,15 @@
+rownanie:
+y=A+B*x+C*x^2+D1/((x-E1)^2+G1^2)^(n/2)*cos(T1-n*(pi/2-atan((x-E1)/G1)))
+
+parametry:
+n,A,B,C,D1,T1,E1,G1
+
+typ:
+Y-Script
+
+rodzaje przejsc:
+ekscyton w bulku, studni, kresce, kropce (pojedynczej, w niskiej temp.): n = 2
+bulk: n = 2.5
+przejscie jednoelektronowe (nie ekscyton) studnia, kreska, kropka (dobrze symuluje Gaussa): n = 3
+
+W temp. pokojowej fituj z n = 3 (poszerzenie Gaussowskie).
